@@ -1,0 +1,1194 @@
+
+body 
+{
+    font-family: 'Time News Roman';
+    font-size: 20px;
+}
+
+h1 
+{
+    font-family: 'DM Serif Text', Times, serif;
+    font-weight: 300; /* Kurus */
+    font-size: 45pt;
+    line-height: 1.6; /* Untuk jarak antara baris yang baik */
+    color: #000000;
+    margin: 60px 0 ;
+}
+
+h2 {
+    font-family: Times, serif;
+    font-weight: 300; /* Kurus */
+    font-size: 35pt;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 30px 390px;
+    text-align: center; /* Tambahkan ini untuk meletakkan teks di tengah */
+}
+
+
+h3 
+{
+    color: #000000;
+    font-size: 20pt;
+    font-family: Georgia;
+    margin-bottom: 20px;
+    float: 30px;
+}
+
+body
+{
+    background-color: #E1C16E;
+}
+
+*
+{
+        margin: 0;
+        padding: 0;
+}
+
+ul
+{
+     margin-left: 25px;
+}
+
+
+ul li
+{
+    list-style: none;
+    display: inline;
+    line-height: 100px;
+    float: left;
+}
+
+ul li a
+{
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 16pt;
+    color: #ffffff;
+    padding: 0 20;
+    display: block;
+}
+
+ul li a:hover
+{
+    color: #CC7722;
+}
+
+nav
+{
+    width: 100%;
+    height: 100px;
+    font-size: 45pt;
+    font-family: 'Times New Roman';
+    background-color:#7B3F00;
+}
+
+
+/*Home Section*/
+
+.center-box1 {
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+
+    background-image: url('../images/muziumterengganu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(58, 50, 50, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.center-box2
+{
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+
+    background-image: url('../images/dungun.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(58, 50, 50, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.center-box3
+{
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+
+    background-image: url('../images/batubersurat.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(58, 50, 50, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.center-box4
+{
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+
+    background-image: url('../images/aktiviti3/peserta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(58, 50, 50, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.center-box5
+{
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+
+    background-image: url('../images/bdm/bermalam.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(58, 50, 50, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.center-box6
+{
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+
+    background-image: url('../images/contact.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(58, 50, 50, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+}
+
+.center-box1:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.center-box2:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.center-box3:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.center-box4:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.center-box5:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.center-box6:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.box-description 
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.description 
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    color: #333;
+    text-align: left;
+    font-size: 16px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.description h2 
+{
+    font-family: Times, serif;
+    font-weight: 300; /* Kurus */
+    font-size: 27pt;
+    line-height: 1.6;
+    color: #000000;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.description p 
+{
+    font-family: 'Time News Roman', serif; 
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+
+/*branches*/
+
+.anak1
+{
+    overflow: hidden;
+
+}
+
+/*Contact*/
+
+h1 
+{
+    font-family: 'DM Serif Text', Times, serif;
+    font-weight: 300; /* Kurus */
+    font-size: 45pt;
+    line-height: 1.6; /* Untuk jarak antara baris yang baik */
+    color: #000000;
+    margin: 60px 0 ;
+}
+
+/* Kontainer utama untuk map dan contactbox */
+.map-contact-container 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mapbox 
+{
+    width: 60%;
+    height: 600px;
+    background-size: cover;
+    padding-top: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.mapbox iframe 
+{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contactbox 
+{
+    width: 30%;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #d4d6d4;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-top: 150px; /* Laraskan nilai ini untuk kedudukan lebih bawah */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.messagebox h2
+{
+    color: #ffffff;
+}
+.messagebox 
+{
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffc583;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    position: relative;
+    left: 130px;
+}
+
+.form-group 
+{
+    margin-bottom: 20px;
+}
+
+label 
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input, textarea /*box isi putih*/
+{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea /*message box*/
+{
+    height: 130px;
+    resize: vertical;
+}
+
+button 
+{
+    background-color: #ffc5c5;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/*Branches*/
+
+/*Start Dungun*/
+
+.dungun h3 
+{
+    color: #000000;
+    font-size: 20pt;
+    font-family: Georgia;
+    margin-bottom: 20px;
+    float: 30px;
+}
+
+.dungun p
+{
+font-family: 'Time News Roman';
+font-size: 20px;
+}
+
+/* Dungun Section */
+.dungun {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.md1, .md2 {
+    width: 45%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.md1 img, .md2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.dungun-content-box {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.content-dungun1, .content-dungun2 {
+    width: 45%;
+    background-color: #fff;
+    padding: 30px; /* Increased padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 10px; /* Added margin for space around content */
+}
+
+.dungun-branches-table {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #FFEEAD; /* Background color for the table section */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.dungun-branches-table table {
+    width: 80%; /* Make the table width 100% */
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 20px; /* Increased font size for better readability */
+}
+
+.dungun-branches-table th, .dungun-branches-table td
+{
+    padding: 20px 30px; /* Increased padding for better spacing */
+    border: 2px solid #A66E38;
+    text-align: center;
+}
+
+.dungun-branches-table caption {
+    font-size: 35px; /* Increased font size for the caption */
+    margin-bottom: 20px;
+}
+
+/* Kemaman Section */
+.kemaman {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.kd1, .kd2, .kd3 {
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.kd1 img, .kd2 img, .kd3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Kemaman Section - Improved */
+.kemaman-content-box {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px; /* Added padding to give space from the page sides */
+    margin-bottom: 10px;
+}
+
+
+.content-kemaman1, .content-kemaman2 {
+    width: 45%;
+    background-color: #fff;
+    padding: 30px; /* Increased padding for better spacing inside the content box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 10px; /* Added margin for space around content */
+}
+
+/* Kemaman Table - Improved */
+.kemaman-branches-table {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #FFEEAD; /* Background color for the table section */
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%; /* Reduced the width of the table */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.kemaman-branches-table table {
+    width: 80%; /* Reduced the width of the table */
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 20px; /* Font size for readability */
+}
+
+.kemaman-branches-table th, .kemaman-branches-table td {
+    padding: 12px 20px; /* Increased padding for better spacing */
+    border: 2px solid #A66E38;
+    text-align: center;
+}
+
+.kemaman-branches-table caption {
+    color: #000000;
+    font-size: 20pt;
+    font-family: Georgia;
+    margin-bottom: 20px;
+}
+
+/* Activity */ 
+
+.activity-h1 
+{
+    font-family: 'DM Serif Text', Times, serif; 
+    font-weight: 300;
+    font-size: 45pt; 
+    line-height: 1.6; /* jarak antara bariS*/ 
+    color: #000000; 
+    margin: 60px 0 ; 
+}
+
+.activity-h2 
+{
+font-size: 20pt;
+line-height: 1.6;
+color: black;
+margin: 10px 0; 
+font-weight: bold;
+font-family: Times, serif;
+}
+
+.activity-box1 
+{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 70px auto;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.image-activity-container img 
+{
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.image-activity-box1 img 
+{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    display: block;
+}
+        
+.image-activity-box1 
+{
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.activity p {
+    margin: 10px 0; /* Jarak antara paragraf */
+    color: black; 
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+.image-activity-box1 {
+    display: flex;
+    flex-wrap: wrap; /* Susun gambar dalam barisan yang fleksibel */
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.image-activity-box1 img 
+{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-activity-box1 img:hover 
+{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.activity-box2 
+{
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 70px auto;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.activity p 
+{
+    margin: 10px 0; 
+    color: black; 
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+.image-activity-box2
+{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.image-activity-box2 img 
+{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-activity-box2 img:hover 
+{
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.activity-box3 
+{
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 70px auto;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.activity p 
+{
+    margin: 10px 0; 
+    color: black; 
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+/*GALLERY*/
+
+
+.gallery-h1
+{
+    font-family: 'DM Serif Text', Times, serif; 
+    font-weight: 300;  
+    font-size: 45pt; 
+    line-height: 1.6;
+    color: #000000; 
+    margin: 60px 0 ; 
+}
+
+.gallery-h2 
+{
+font-size: 25pt;
+line-height: 1.6; 
+color: black;
+margin: 10px 0;
+font-weight: bold;
+}
+
+.gallery-box1 
+{
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 70px auto;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.image-gallery-box1 
+{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.image-gallery-box1 img 
+{
+    object-fit: cover; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30%; 
+    height: auto;
+    border: 1.5px solid #754E1A;
+
+}
+
+.image-gallery-box1 img:hover 
+{
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-box2 
+{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 70px auto;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.gallery p 
+{
+    margin: 10px 0; 
+    color: black;
+    font-size: 15pt; 
+    line-height: 1.6; 
+}
+
+.image-gallery-box2 
+{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.image-gallery-box2 img 
+{
+    object-fit: cover;
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30%; 
+    height: auto;
+    border: 1.5px solid #754E1A;
+
+}
+
+.image-gallery-box2 img:hover 
+{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-box3 
+{
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 70px auto;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.image-gallery-text
+{
+    font-size: 13pt;
+    color: black; 
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+.image-gallery-box3 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px; 
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.image-gallery-box3 img 
+{
+    width: 70%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1.5px solid #754E1A;
+    align-items: baseline;
+}
+
+.image-gallery-box3 img:hover 
+{
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*Historical Sites*/
+
+.sites-h1 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+/* Kontainer untuk gambar dan teks */
+.sites-container1 {
+    display: flex;
+    flex-direction: column; /* Susunan menegak */
+    align-items: center; /* Tengahkan kandungan secara mendatar */
+    margin-bottom: 20px; /* Jarak antara setiap section */
+    width: 90%; /* Lebar kontainer disesuaikan */
+    max-width: 900px; /* Hadkan lebar maksimum */
+    margin: 20px auto; /* Tengah di halaman */
+    background-color: #f9f9f9; /* Warna latar belakang kontainer */
+    padding: 20px; /* Jarak dalam kontainer */
+    border-radius: 10px; /* Bucu bulat */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayang pada kotak */
+}
+
+/* Gambar dalam kontainer */
+.sites-container1 img {
+    width: 100%; /* Gambar memenuhi lebar kontainer */
+    height: auto; /* Pastikan gambar tidak pecah */
+    border-radius: 8px; /* Bucu gambar menjadi bulat */
+    margin-bottom: 15px; /* Jarak antara gambar dan teks */
+}
+
+/* Teks dalam kontainer */
+.image-sites-text {
+    font-size: 16px; /* Saiz teks yang sesuai */
+    line-height: 1.6; /* Jarak antara baris teks */
+    font-family: 'Times New Roman', Times, serif; /* Font untuk teks */
+    text-align: justify; /* Justify teks untuk aliran yang lebih baik */
+    color: #333; /* Warna teks */
+}
+
+.image-sites-text p {
+    margin: 0;
+}
+
+
+
+/*About*/
+
+.about-container {
+    display: flex;
+    justify-content: center; /* untuk memastikan gambar terletak di tengah */
+    align-items: center; /* untuk memastikan gambar terletak di tengah secara menegak */
+    height: 70%; /* memastikan kontainer memenuhi ketinggian paparan */
+}
+
+.about-muzium-image {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    height: auto; /* pastikan gambar kekal dalam nisbah aspek */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* menambah bayang pada gambar */
+    border-radius: 10px;
+}
+
+.about-muzium-image img {
+    width: 100%; /* pastikan gambar memenuhi ruang kontainer */
+    height: auto; /* mengekalkan nisbah aspek gambar */
+    border-radius: 10px;
+}
+
+  h1
+  {
+      font-family: 'DM Serif Text', Times, serif; 
+      font-weight: 300;
+      font-size: 45pt; 
+      line-height: 1.6; 
+      color: #000000; 
+      margin: 60px 0 ; 
+      font-weight: bold;
+  }
+  
+  h2
+  {
+      text-align: center;
+  }
+  
+  .vision-mission-table {
+      width: 85%;  
+      border-collapse: collapse; 
+      text-align: left; 
+      margin: 0 auto;  
+      border-radius: 8px; 
+      margin-bottom: 20px;
+  }
+  
+  .vision-mission-table th, .vision-mission-table td {
+      padding: 20px; 
+      border: 1px solid #131010; 
+  }
+  
+  .vision-mission-table th {
+      background-color: #6C4E31;
+      color: white; 
+      text-align: center; 
+  }
+  
+  .vision-mission-table td {
+      background-color: #fff;  
+      color: black;  
+  }
+  
+  .center-image 
+  {
+      display: block;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section 
+  {
+      margin-bottom: 30px;
+      padding: 15px;
+      background-color: #E1C16E;
+  }
+  
+  .section p, .section ul 
+  {
+      font-size: 1.1em;
+      text-align: center;
+      line-height: 1.8em;
+      color: black;
+  }
+  
+  .objectives-table 
+  {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #FFEEAD; /* Background color for the table section */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.objectives-table table 
+{
+    width: 80%; /* Make the table width 100% */
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 20px; /* Increased font size for better readability */
+}
+
+.objectives-table th, .objectives-table td
+{
+    padding: 20px 30px; /* Increased padding for better spacing */
+    border: 2px solid #A66E38;
+    text-align: center;
+}
+
+.objectives-table caption {
+    font-size: 35px; /* Increased font size for the caption */
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+.footer {
+    width: 100%; /* Ensure the footer takes up the entire width */
+    background-color: #7B3F00; /* Keep the same background color */
+    color: rgb(255, 255, 255); /* Adjust text color to make it visible */
+    text-align: center;
+    padding: 20px 0; /* Maintain padding as you had it */
+    position: relative;
+    bottom: 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer .social-icons a {
+    font-size: 24px;
+    color: rgb(255, 255, 255); /* Maintain the icon color */
+    text-decoration: none;
+}
+
+.footer p 
+{
+    margin-top: 15px;
+    font-size: 10px;
+    color: white;
+    font-family: 'DM Serif Text', Times, serif;
+}
+
+
+/* Contact */
+.mapbox {
+    width: 50%;
+    height: 600px;
+    background-size: contain;
+    padding-top: 30px;
+}
+
+.contact-container
+{
+    display: flex;
+    flex-direction: column; /* Susun menegak */
+    align-items: center; /* Letakkan kedua-dua kotak di tengah secara mendatar */
+    justify-content: center; /* Letakkan kedua-dua kotak di tengah secara menegak */
+    padding: 20px;
+}
+
+.messagebox 
+{
+    width: 75%;
+    background-color: #dae26c; /* Warna latar belakang message box */
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #0000001a;
+    margin-right: 20%;
+
+}
+
+.contactbox 
+{
+    width: 70%; /* Lebar contact box 30% lebih kecil daripada message box */
+    background-color: #dae26c; /* Warna latar belakang seperti yang kamu bagi */
+    padding: 10px;
+    margin-bottom: 20px; /* Jarak antara contact box dan message box */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-h2 {
+    font-family: Times, serif;
+    font-weight: 200;
+    font-size: 35px; /* Tukar kepada px */
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+/* Saiz teks dalam kotak message */
+.messagebox h2 {
+    font-size: 35px; /* Tukar kepada px */
+    text-align: center;
+    color: #fff;
+}
+
+/* Button Style */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    background-color: #b47500;
+}
+
+button:hover {
+    background-color: #ffd000; /* Efek hover button */
+}
