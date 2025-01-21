@@ -15,14 +15,17 @@ h1
     margin: 60px 0 ;
 }
 
-h2 {
+h2 
+{
     font-family: Times, serif;
     font-weight: 300; 
     font-size: 35pt;
-    line-height: 1.6;
-    color: #ffffff;
-    margin: 30px 390px;
+    line-height: 1;
+    color: #000000;
     text-align: center; 
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 35px;
 }
 
 
@@ -48,7 +51,7 @@ body
 
 ul
 {
-     margin-left: 6%;
+     margin-left: 19%;
 }
 
 
@@ -86,6 +89,15 @@ nav
 
 
 /*Home Section*/
+
+
+.logo-muzium
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
 .center-box1 {
     display: block;
@@ -548,6 +560,21 @@ font-size: 20px;
     margin-bottom: 20px;
 }
 
+.map-dungun-container
+{
+    background-color: white;
+    border-radius: 30px;
+    height: 23%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dungun-mapbox
+{
+    padding: 20px 150px;
+}
+
 /* Kemaman Section */
 .kemaman {
     display: flex;
@@ -624,6 +651,23 @@ font-size: 20px;
     font-family: Georgia;
     margin-bottom: 20px;
 }
+
+.map-kemaman-container
+{
+    background-color: white;
+    border-radius: 30px;
+    height: 25%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.kemaman-mapbox
+{
+    padding: 20px 150px;
+}
+
 
 /* Activity */ 
 
@@ -888,33 +932,24 @@ font-weight: bold;
     text-align: justify;
 }
 
-.image-gallery-text
-{
-    font-size: 13pt;
-    color: black; 
-    line-height: 1.6;
-    text-align: center;
-
-}
 
 .image-gallery-box3 
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap; 
     gap: 50px; 
-    margin: 20px auto;
-    max-width: 900px;
+    justify-content: center; 
+    margin-top: 20px;
 }
 
 .image-gallery-box3 img 
 {
-    width: 70%; 
-    height: auto; 
+    object-fit: cover; 
     border-radius: 10px; 
-    margin-bottom: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30%; 
+    height: auto;
     border: 1.5px solid #754E1A;
-    align-items: baseline;
 }
 
 .image-gallery-box3 img:hover 
@@ -924,6 +959,18 @@ font-weight: bold;
 }
 
 /*Historical Sites*/
+
+.sites-h2 
+{
+    font-family: Times, serif;
+    font-weight: 300; 
+    font-size: 35pt;
+    line-height: 1;
+    color: #000000;
+    text-align: center; 
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 .sites-h1 
 {
