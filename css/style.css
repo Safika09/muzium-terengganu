@@ -8,21 +8,21 @@ body
 h1 
 {
     font-family: 'DM Serif Text', Times, serif;
-    font-weight: 300; /* Kurus */
+    font-weight: 300; 
     font-size: 45pt;
-    line-height: 1.6; /* Untuk jarak antara baris yang baik */
+    line-height: 1.6; 
     color: #000000;
     margin: 60px 0 ;
 }
 
 h2 {
     font-family: Times, serif;
-    font-weight: 300; /* Kurus */
+    font-weight: 300; 
     font-size: 35pt;
     line-height: 1.6;
     color: #ffffff;
     margin: 30px 390px;
-    text-align: center; /* Tambahkan ini untuk meletakkan teks di tengah */
+    text-align: center; 
 }
 
 
@@ -328,7 +328,7 @@ nav
 .description h2 
 {
     font-family: Times, serif;
-    font-weight: 300; /* Kurus */
+    font-weight: 300; 
     font-size: 27pt;
     line-height: 1.6;
     color: #000000;
@@ -350,9 +350,9 @@ nav
 h1 
 {
     font-family: 'DM Serif Text', Times, serif;
-    font-weight: 300; /* Kurus */
+    font-weight: 300; 
     font-size: 45pt;
-    line-height: 1.6; /* Untuk jarak antara baris yang baik */
+    line-height: 1.6;
     color: #000000;
     margin: 60px 0 ;
 }
@@ -400,7 +400,7 @@ h1
     background-color: #d4d6d4;
     border: 2px solid #000000;
     border-radius: 10px;
-    margin-top: 150px; /* Laraskan nilai ini untuk kedudukan lebih bawah */
+    margin-top: 150px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -480,65 +480,71 @@ font-family: 'Time News Roman';
 font-size: 20px;
 }
 
-/* Dungun Section */
-.dungun {
+.dungun 
+{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
-.md1, .md2 {
+.md1, .md2 
+{
     width: 45%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
 
-.md1 img, .md2 img {
+.md1 img, .md2 img 
+{
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-.dungun-content-box {
+.dungun-content-box 
+{
     display: flex;
     gap: 30px;
     margin-top: 20px;
 }
 
-.content-dungun1, .content-dungun2 {
+.content-dungun1, .content-dungun2 
+{
     width: 45%;
     background-color: #fff;
-    padding: 30px; /* Increased padding */
+    padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    margin: 10px; /* Added margin for space around content */
+    margin: 10px; 
 }
 
-.dungun-branches-table {
+.dungun-branches-table 
+{
     margin-top: 30px;
     text-align: center;
-    background-color: #FFEEAD; /* Background color for the table section */
+    background-color: #FFEEAD; 
     padding: 20px;
     border-radius: 15px;
 }
 
-.dungun-branches-table table {
-    width: 80%; /* Make the table width 100% */
+.dungun-branches-table table 
+{
+    width: 80%; 
     margin: 0 auto;
     border-collapse: collapse;
-    font-size: 20px; /* Increased font size for better readability */
+    font-size: 20px; 
 }
 
 .dungun-branches-table th, .dungun-branches-table td
 {
-    padding: 20px 30px; /* Increased padding for better spacing */
+    padding: 20px 30px; 
     border: 2px solid #A66E38;
     text-align: center;
 }
 
 .dungun-branches-table caption {
-    font-size: 35px; /* Increased font size for the caption */
+    font-size: 35px; 
     margin-bottom: 20px;
 }
 
@@ -556,58 +562,63 @@ font-size: 20px;
     border-radius: 15px;
 }
 
-.kd1 img, .kd2 img, .kd3 img {
+.kd1 img, .kd2 img, .kd3 img
+{
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-/* Kemaman Section - Improved */
-.kemaman-content-box {
+.kemaman-content-box 
+{
     display: flex;
     gap: 30px;
     margin-top: 20px;
-    padding: 20px; /* Added padding to give space from the page sides */
+    padding: 20px; 
     margin-bottom: 10px;
 }
 
 
-.content-kemaman1, .content-kemaman2 {
+.content-kemaman1, .content-kemaman2 
+{
     width: 45%;
     background-color: #fff;
-    padding: 30px; /* Increased padding for better spacing inside the content box */
+    padding: 30px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    margin: 10px; /* Added margin for space around content */
+    margin: 10px; 
 }
 
-/* Kemaman Table - Improved */
-.kemaman-branches-table {
+.kemaman-branches-table 
+{
     margin-top: 30px;
     text-align: center;
-    background-color: #FFEEAD; /* Background color for the table section */
+    background-color: #FFEEAD; 
     padding: 20px;
     border-radius: 15px;
-    width: 90%; /* Reduced the width of the table */
+    width: 90%; 
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
 }
 
-.kemaman-branches-table table {
-    width: 80%; /* Reduced the width of the table */
+.kemaman-branches-table table 
+{
+    width: 80%; 
     margin: 0 auto;
     border-collapse: collapse;
-    font-size: 20px; /* Font size for readability */
+    font-size: 20px; 
 }
 
-.kemaman-branches-table th, .kemaman-branches-table td {
-    padding: 12px 20px; /* Increased padding for better spacing */
+.kemaman-branches-table th, .kemaman-branches-table td 
+{
+    padding: 12px 20px; 
     border: 2px solid #A66E38;
     text-align: center;
 }
 
-.kemaman-branches-table caption {
+.kemaman-branches-table caption 
+{
     color: #000000;
     font-size: 20pt;
     font-family: Georgia;
@@ -670,7 +681,7 @@ font-family: Times, serif;
 }
 
 .activity p {
-    margin: 10px 0; /* Jarak antara paragraf */
+    margin: 10px 0; /* Jarak antara paragraph */
     color: black; 
     font-size: 16px; 
     line-height: 1.6; 
@@ -678,7 +689,7 @@ font-family: Times, serif;
 
 .image-activity-box1 {
     display: flex;
-    flex-wrap: wrap; /* Susun gambar dalam barisan yang fleksibel */
+    flex-wrap: wrap; 
     gap: 10px; 
     justify-content: center; 
     margin-top: 20px;
@@ -914,7 +925,8 @@ font-weight: bold;
 
 /*Historical Sites*/
 
-.sites-h1 {
+.sites-h1 
+{
     font-family: 'DM Serif Text', serif;
     font-size: 36px;
     color: #333;
@@ -923,35 +935,37 @@ font-weight: bold;
 }
 
 /* Kontainer untuk gambar dan teks */
-.sites-container1 {
+.sites-container1 
+{
     display: flex;
-    flex-direction: column; /* Susunan menegak */
-    align-items: center; /* Tengahkan kandungan secara mendatar */
-    margin-bottom: 20px; /* Jarak antara setiap section */
-    width: 90%; /* Lebar kontainer disesuaikan */
-    max-width: 900px; /* Hadkan lebar maksimum */
-    margin: 20px auto; /* Tengah di halaman */
-    background-color: #f9f9f9; /* Warna latar belakang kontainer */
-    padding: 20px; /* Jarak dalam kontainer */
-    border-radius: 10px; /* Bucu bulat */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayang pada kotak */
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px;
+    width: 90%; 
+    max-width: 900px; 
+    margin: 20px auto; 
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Gambar dalam kontainer */
-.sites-container1 img {
-    width: 100%; /* Gambar memenuhi lebar kontainer */
-    height: auto; /* Pastikan gambar tidak pecah */
-    border-radius: 8px; /* Bucu gambar menjadi bulat */
-    margin-bottom: 15px; /* Jarak antara gambar dan teks */
+.sites-container1 img 
+{
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
 }
 
 /* Teks dalam kontainer */
 .image-sites-text {
-    font-size: 16px; /* Saiz teks yang sesuai */
-    line-height: 1.6; /* Jarak antara baris teks */
-    font-family: 'Times New Roman', Times, serif; /* Font untuk teks */
-    text-align: justify; /* Justify teks untuk aliran yang lebih baik */
-    color: #333; /* Warna teks */
+    font-size: 16px; 
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+    color: #333; 
 }
 
 .image-sites-text p {
@@ -964,23 +978,23 @@ font-weight: bold;
 
 .about-container {
     display: flex;
-    justify-content: center; /* untuk memastikan gambar terletak di tengah */
-    align-items: center; /* untuk memastikan gambar terletak di tengah secara menegak */
-    height: 70%; /* memastikan kontainer memenuhi ketinggian paparan */
+    justify-content: center; 
+    align-items: center;
+    height: 70%; 
 }
 
 .about-muzium-image {
     display: block;
     margin: 20px auto;
     width: 40%;
-    height: auto; /* pastikan gambar kekal dalam nisbah aspek */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* menambah bayang pada gambar */
+    height: auto; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
     border-radius: 10px;
 }
 
 .about-muzium-image img {
-    width: 100%; /* pastikan gambar memenuhi ruang kontainer */
-    height: auto; /* mengekalkan nisbah aspek gambar */
+    width: 100%; 
+    height: auto; 
     border-radius: 10px;
 }
 
@@ -1055,39 +1069,40 @@ font-weight: bold;
   {
     margin-top: 30px;
     text-align: center;
-    background-color: #FFEEAD; /* Background color for the table section */
+    background-color: #FFEEAD; 
     padding: 20px;
     border-radius: 15px;
 }
 
 .objectives-table table 
 {
-    width: 80%; /* Make the table width 100% */
+    width: 80%; 
     margin: 0 auto;
     border-collapse: collapse;
-    font-size: 20px; /* Increased font size for better readability */
+    font-size: 20px; 
 }
 
 .objectives-table th, .objectives-table td
 {
-    padding: 20px 30px; /* Increased padding for better spacing */
+    padding: 20px 30px; 
     border: 2px solid #A66E38;
     text-align: center;
 }
 
 .objectives-table caption {
-    font-size: 35px; /* Increased font size for the caption */
+
+    font-size: 35px; 
     margin-bottom: 20px;
 }
 
 
 /* Footer */
 .footer {
-    width: 100%; /* Ensure the footer takes up the entire width */
-    background-color: #7B3F00; /* Keep the same background color */
-    color: rgb(255, 255, 255); /* Adjust text color to make it visible */
+    width: 100%; 
+    background-color: #7B3F00; 
+    color: rgb(255, 255, 255); 
     text-align: center;
-    padding: 20px 0; /* Maintain padding as you had it */
+    padding: 20px 0; 
     position: relative;
     bottom: 0;
 }
@@ -1100,7 +1115,7 @@ font-weight: bold;
 
 .footer .social-icons a {
     font-size: 24px;
-    color: rgb(255, 255, 255); /* Maintain the icon color */
+    color: rgb(255, 255, 255); 
     text-decoration: none;
 }
 
@@ -1124,9 +1139,9 @@ font-weight: bold;
 .contact-container
 {
     display: flex;
-    flex-direction: column; /* Susun menegak */
-    align-items: center; /* Letakkan kedua-dua kotak di tengah secara mendatar */
-    justify-content: center; /* Letakkan kedua-dua kotak di tengah secara menegak */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
     padding: 20px;
 }
 
@@ -1144,8 +1159,8 @@ font-weight: bold;
 
 .contactbox 
 {
-    width: 70%; /* Lebar contact box 30% lebih kecil daripada message box */
-    background-color: #dae26c; /* Warna latar belakang seperti yang kamu bagi */
+    width: 70%; 
+    background-color: #dae26c; 
     padding: 10px;
     margin-bottom: 20px; /* Jarak antara contact box dan message box */
     border-radius: 10px;
@@ -1155,7 +1170,7 @@ font-weight: bold;
 .contact-h2 {
     font-family: Times, serif;
     font-weight: 200;
-    font-size: 35px; /* Tukar kepada px */
+    font-size: 35px; 
     color: #ffffff;
     margin: 0;
     text-align: center;
@@ -1163,7 +1178,7 @@ font-weight: bold;
 
 /* Saiz teks dalam kotak message */
 .messagebox h2 {
-    font-size: 35px; /* Tukar kepada px */
+    font-size: 35px; 
     text-align: center;
     color: #fff;
 }
@@ -1182,5 +1197,5 @@ button {
 }
 
 button:hover {
-    background-color: #ffd000; /* Efek hover button */
+    background-color: #ffd000;
 }
